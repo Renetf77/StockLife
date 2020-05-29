@@ -1,0 +1,14 @@
+default:
+  dbserver: "mysql.ibratec.local"
+  dbport: "3306"
+  DB: "ibratec"
+  user: "rene.francisco"
+  password: "Dypk3020"
+  
+production:
+  dbserver: "mysql.ibratec.local"
+  dbport: "3306"
+  DB: "ibratec"
+  user: "rene.francisco"
+  password: "7yA9*kr%kc"
+  
