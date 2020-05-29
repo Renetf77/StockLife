@@ -63,5 +63,6 @@ ler.BMF.BVBG = function(dt){
   return(dados)
 }
 
-te = ler.BMF.BVBG(as.Date("2020-05-27"))
+tempo = system.time(te <- ler.BMF.BVBG(as.Date("2020-04-28")), TRUE)
+print(tempo)
 View(te[grepl("E", te$MktDataStrmId),])
