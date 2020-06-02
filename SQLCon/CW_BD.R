@@ -29,6 +29,8 @@ rownames(te) <- 1:nrow(te) +index
 rownames(te)
 str(te)
 
+dbDataType(conn, 1)
+
 #dbCreateTable(conn, "teste", te)
 #dbReadTable(conn, "teste")
 dbWriteTable(conn = conn, name = "teste", value = te, overwrite = T, row.names= T )
