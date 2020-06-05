@@ -36,3 +36,5 @@ dbDataType(conn, 1)
 dbWriteTable(conn = conn, name = "teste", value = te, overwrite = T, row.names= T )
 
 dbDisconnect(conn)
+
+#tail(c(1,2,3), 1)
