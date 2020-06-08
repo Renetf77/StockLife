@@ -1,5 +1,5 @@
-library(XML)
-library(plyr)
+require(XML)
+require(plyr)
 
 ler.BMF.BVBG = function(dt){
   stopifnot(is(dt, "Date"), length(dt) == 1)
@@ -66,6 +66,3 @@ ler.BMF.BVBG = function(dt){
 }
 
 
-tempo = system.time(te <- ler.BMF.BVBG(as.Date("2020-06-04")), TRUE)
-print(tempo)
-View(te[grepl("E", te$MktDataStrmId),])
