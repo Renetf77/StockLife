@@ -69,7 +69,7 @@ ler.BMF.BVBG = function(dt){
     dados[,col] = as.numeric(dados[,col])
   }
   
-  dados$DtRef = dt
+  dados$DtRef = as.Date(dt)
 
   return(dados)
 }
