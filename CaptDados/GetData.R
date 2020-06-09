@@ -7,10 +7,19 @@ ler.BMF.BVBG = function(dt){
   
   filename = format(dt, "Arquivos/PR%y%m%d.zip")             
   
+  result = TRUE
   if(!file.exists(filename)) {
-    download.file(url, filename, mode= "wb")
+    result = tryCatch({download.file(url, filename, mode= "wb")
+                       res <- TRUE},
+                       error = function(e) return(FALSE))
+    
   }
   
+  if(!result){
+    return(NA)
+  }
+  
+
   files = unzip(filename, exdir = "Arquivos")
   last.file = max(files)
   
