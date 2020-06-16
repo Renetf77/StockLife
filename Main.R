@@ -1,8 +1,18 @@
 source("CaptDados/GetData.R")
 source("SQLCon/SQLite_Conn.R")
 
-for (i in 1:180) {
-  dt = as.Date("2019-12-31", "%Y-%m-%d") + i
+conn = dbConnect(
+  dbDriver("SQLite"),
+  "DB/stocks.sqlite3"
+) 
+
+i = "MarketDays"
+
+SQLFinished = paste0("SELECT Dt FROM ", i, " WHERE Dt='", dt, "' AND Finished = '0';")
+res = dbGetQuery(conn, SQLFinished)
+
+for (i in res$Dt) {
+  dt = as.Date(i, "%Y-%m-%d", origin = "1970-01-01")
   print(dt)
   te <- ler.BMF.BVBG(dt)
   
@@ -13,7 +23,10 @@ for (i in 1:180) {
   }
 }
 
+dbDisconnect(conn)
 print("FIM")
+
+
   
 
 

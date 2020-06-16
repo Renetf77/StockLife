@@ -12,7 +12,9 @@ get.market.days = function() {
   i = "MarketDays"
   if(!dbExistsTable(conn, i)){
     SQLStatement = paste("CREATE TABLE", i,
-                         "(Dt DATETIME PRIMARY KEY DESC);")
+                         "(Dt DATETIME PRIMARY KEY DESC,
+                           Running INTEGER DEFAULT (0),
+                           Finished INTEGER DEFAULT (0) );")
     
     dbExecute(conn, SQLStatement)
     
@@ -21,14 +23,14 @@ get.market.days = function() {
   baseurl = "ftp://ftp.bmf.com.br/IPN/TRS/BVBG.086.01/"
   filesurl = getURL(baseurl, ftp.use.epsv = FALSE, ftplistonly = TRUE, crlf = TRUE)
   files = strsplit(filesurl, "\r\n")[[1]]
-  pdates = as.vector(as.Date(substr(files, 3, 8), "%y%m%d"))
+  pdates = as.Date(substr(files, 3, 8), "%y%m%d", origin = "1970-01-01")
   adates = dbGetQuery(conn, paste("SELECT Dt FROM", i, "ORDER BY Dt DESC"))
-  adates = adates$Dt
+  adates = as.Date(adates$Dt, "%Y-%m-%d", origin = "1970-01-01")
   rdates = setdiff(pdates,adates)
-  
+  print(rdates)
   for(dt in rdates){
     dt = as.Date(dt, origin = "1970-01-01")
-    print(dt)
+    print(paste("Iniciando rotina para o dia",dt))
     url = format(dt, paste0(baseurl,"PR%y%m%d.zip"))
     filename = format(dt, "Arquivos/PR%y%m%d.zip") 
     
