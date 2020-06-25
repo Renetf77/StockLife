@@ -2,6 +2,15 @@ require("DBI")
 require("odbc")
 require("RSQLite")
 
-GetSQL = function(sql, conn){
+getDataSQL = function(sql){
+  conn = dbConnect(
+    dbDriver("SQLite"),
+    "DB/stocks.sqlite3"
+  ) 
   
+  res = dbGetQuery(conn, sql)
+  
+  dbDisconnect(conn)
+  
+  return(res)
 }

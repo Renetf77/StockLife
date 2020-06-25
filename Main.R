@@ -1,18 +1,13 @@
 source("CaptDados/GetData.R")
 source("SQLCon/SQLite_Conn.R")
 source("CaptDados/GetTradeDays.R")
+source("SQLCon/SQLite_to_DF.R")
 
 get.market.days()
 
-conn = dbConnect(
-  dbDriver("SQLite"),
-  "DB/stocks.sqlite3"
-) 
-
 i = "MarketDays"
-
 SQLFinished = paste0("SELECT Dt FROM ", i, " WHERE Finished = '0';")
-res = dbGetQuery(conn, SQLFinished)
+res = getDataSQL(SQLFinished)
 
 for (i in res$Dt) {
   #i = "2018-03-12"
@@ -30,7 +25,6 @@ for (i in res$Dt) {
   }
 }
 
-dbDisconnect(conn)
 print("FIM")
 
 
