@@ -66,7 +66,7 @@ ler.BMF.BVBG = function(dt){
   #   dados = rbind.fill(dados, df)
   # }
   
-  dados = ldply(.data = BizGrps, .fun = from.node.to.data.frame, adt = dt, .id = NULL, .parallel = T)
+  dados = ldply(.data = BizGrps, .fun = from.node.to.data.frame, adt = dt, .id = NULL, .parallel = F)
   
   dados[, "Dt"] = NULL
   

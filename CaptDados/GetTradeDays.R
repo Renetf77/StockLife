@@ -13,7 +13,6 @@ get.market.days = function() {
   if(!dbExistsTable(conn, i)){
     SQLStatement = paste("CREATE TABLE", i,
                          "(Dt DATETIME PRIMARY KEY DESC,
-                           Running INTEGER DEFAULT (0),
                            Finished INTEGER DEFAULT (0) );")
     
     dbExecute(conn, SQLStatement)
@@ -27,7 +26,7 @@ get.market.days = function() {
   adates = dbGetQuery(conn, paste("SELECT Dt FROM", i, "ORDER BY Dt DESC"))
   adates = as.Date(adates$Dt, "%Y-%m-%d", origin = "1970-01-01")
   rdates = setdiff(pdates,adates)
-  print(rdates)
+  
   for(dt in rdates){
     dt = as.Date(dt, origin = "1970-01-01")
     print(paste("Iniciando rotina para o dia",dt))
@@ -57,4 +56,4 @@ get.market.days = function() {
   dbDisconnect(conn) 
 }
 
-get.market.days()
+
