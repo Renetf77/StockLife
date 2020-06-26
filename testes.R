@@ -5,22 +5,33 @@ library(TTR)
 
 source("SQLCon/SQLite_to_DF.R")
 
-res = getDataSQL("Select DtRef, TckrSYmb, FrstPric, MinPric, MaxPric, LastPric, RglrTxsQty, RglrTraddCtrcts, NtlRglrVol, IntlRglrVol  from PETR4;")
+Ticker = "PETR4"
+
+res = getDataSQL(paste0("Select DtRef, 
+                 TckrSYmb, 
+                 FrstPric, 
+                 MinPric, 
+                 MaxPric, 
+                 LastPric, 
+                 RglrTxsQty, 
+                 RglrTraddCtrcts, 
+                 NtlRglrVol, 
+                 IntlRglrVol  
+                 from ", Ticker, ";"))
 
 res$DtRef = as.Date(res$DtRef, "%Y-%m-%d", origin = "1970-01-01")
 res = res[order(res$DtRef),]
-
 dates = as.Date(as.character(res$DtRef),"%Y-%m-%d")
 data = res[,3:6]
 colnames(data) = c("Open", "Low", "High", "Close")
 
-startdate = as.Date("2017-01-01")
-enddate = as.Date("2018-09-19")
+startdate = as.Date(res[1,1])
+enddate = as.Date(res[length(res$DtRef),1])
 
-getSymbols(c("PETR4.SA"), src = "yahoo", from = startdate, to = enddate)
+PETR4 = xts(data, dates)
+PETR4 = window(PETR4, start = startdate, end = enddate - 1)
 
-PETR4.SA = xts(data, dates)
-PETR4.SA = window(PETR4.SA, start = startdate, end = enddate)
+getSymbols(c(paste0(Ticker,".SA")), src = "yahoo", from = startdate, to = enddate)
 
 chartSeries(PETR4.SA, TA = NULL)
 addMACD()
