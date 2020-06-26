@@ -1,40 +1,38 @@
 #install.packages("quantmod")
-library(quantmod)
+require(quantmod)
 #install.packages("TTR")
-library(TTR)
+require(TTR)
+require("DBI")
+require("RSQLite")
 
 source("SQLCon/SQLite_to_DF.R")
 
-Ticker = "PETR4"
+Ticker = "SLCE3"
 
-res = getDataSQL(paste0("Select DtRef, 
-                 TckrSYmb, 
-                 FrstPric, 
-                 MinPric, 
-                 MaxPric, 
-                 LastPric, 
-                 RglrTxsQty, 
-                 RglrTraddCtrcts, 
-                 NtlRglrVol, 
-                 IntlRglrVol  
-                 from ", Ticker, ";"))
+SDB = getDataXTS(Ticker)
 
-res$DtRef = as.Date(res$DtRef, "%Y-%m-%d", origin = "1970-01-01")
-res = res[order(res$DtRef),]
-dates = as.Date(as.character(res$DtRef),"%Y-%m-%d")
-data = res[,3:6]
-colnames(data) = c("Open", "Low", "High", "Close")
+startdate = as.Date(start(SDB))
+enddate = as.Date(end(SDB))
 
-startdate = as.Date(res[1,1])
-enddate = as.Date(res[length(res$DtRef),1])
+SDB = window(SDB, start = startdate, end = enddate - 1)
 
-PETR4 = xts(data, dates)
-PETR4 = window(PETR4, start = startdate, end = enddate - 1)
+SY = getSymbols(c(paste0(Ticker,".SA")), src = "yahoo", from = startdate, to = enddate, auto.assign = F)
 
-getSymbols(c(paste0(Ticker,".SA")), src = "yahoo", from = startdate, to = enddate)
-
-chartSeries(PETR4.SA, TA = NULL)
+#SY <- eval(paste0(Ticker,".SA"))
+chartSeries(SY, TA = NULL)
+chartSeries(SDB, TA = NULL)
 addMACD()
 
-index(PETR4.SA)
+View(SDB)
+#plot(Cl(SDB))
 
+#coredata(SDB)
+#periodicity(SDB)
+#to.weekly(SDB)
+#nweeks(SDB)
+#nmonths(SDB)
+#nyears(SDB)
+#start(SDB)
+#end(SDB)
+
+#SDB["last"] - PETR4.SA["last"]
