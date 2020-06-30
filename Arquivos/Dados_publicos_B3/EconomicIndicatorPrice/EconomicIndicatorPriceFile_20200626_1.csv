@@ -1,0 +1,161 @@
+RptDt;Asst;TckrSymb;EcncIndDesc;PricVal
+2020-06-26;AFS;RTDZAW1;ZAR X USD WMR/C. PRICE;17,3369
+2020-06-26;AUD;RTDAUW1;USD X DAU WMR/C. PRICE;0,68455
+2020-06-26;AUS;RTDAUW1;USD X DAU WMR/C. PRICE;0,68455
+2020-06-26;BGI;BGILIQ;BOI GORDO - Liquida√ß√£o;215,99
+2020-06-26;BRI;RTIBXPF;√çNDICE IBRX-50  -  FECHAMENTO;15329
+2020-06-26;BRI;RTIBXPL;√çNDICE IBRX-50  -  LIQUIDA√á√ÉO;15378
+2020-06-26;CAD;RTDCAW1;CAD X USD WMR/C. PRICE;1,37145
+2020-06-26;CAN;RTDCAW1;CAD X USD WMR/C. PRICE;1,37145
+2020-06-26;CHF;RTDCHW1;CHF X USD WMR/C. PRICE;0,9494
+2020-06-26;CLP;RTDCLW1;CLP X USD WMR/C. PRICE;818,15
+2020-06-26;CNY;RTDCNW1;CNY X USD WMR/C. PRICE;7,0744
+2020-06-26;DCO;RTSEL;TAXA SELIC;2,15
+2020-06-26;DDI;RTDI1;TAXA DO CDI;2,15
+2020-06-26;DI1;RTDI1;TAXA DO CDI;2,15
+2020-06-26;ETH;ALPPHLIQ;ETANOL - Liquida√ß√£o;1680,5
+2020-06-26;EUP;RTEDOW1;USD X EUR WMR/C. PRICE;1,1202
+2020-06-26;EUR;RTEDOW1;USD X EUR WMR/C. PRICE;1,1202
+2020-06-26;FRO;RTDI1;TAXA DO CDI;2,15
+2020-06-26;FRO;RTSEL;TAXA SELIC;2,15
+2020-06-26;GBP;RTDGBW1;USD X GBP WMR/C. PRICE;1,23175
+2020-06-26;GBR;RTDGBW1;USD X GBP WMR/C. PRICE;1,23175
+2020-06-26;HSI;HIZ1 - Ajuste;PreÁo de Ajuste para HSI;23727
+2020-06-26;HSI;HIZ2 - Ajuste;PreÁo de Ajuste para HSI;23118
+2020-06-26;HSI;HIZ3 - Ajuste;PreÁo de Ajuste para HSI;22626
+2020-06-26;HSI;HIZ4 - Ajuste;PreÁo de Ajuste para HSI;22330
+2020-06-26;HSI;HIZ5 - Ajuste;PreÁo de Ajuste para HSI;22324
+2020-06-26;ICF;KCH1 - Ajuste;PreÁo de Ajuste para ICF;101,05
+2020-06-26;ICF;KCH1 - Spot;PreÁo de Spot para ICF;101,05
+2020-06-26;ICF;KCH2 - Ajuste;PreÁo de Ajuste para ICF;108,3
+2020-06-26;ICF;KCH2 - Spot;PreÁo de Spot para ICF;108,3
+2020-06-26;ICF;KCH3 - Ajuste;PreÁo de Ajuste para ICF;115
+2020-06-26;ICF;KCH3 - Spot;PreÁo de Spot para ICF;115
+2020-06-26;ICF;KCK1 - Ajuste;PreÁo de Ajuste para ICF;102,3
+2020-06-26;ICF;KCK1 - Spot;PreÁo de Spot para ICF;102,3
+2020-06-26;ICF;KCK2 - Ajuste;PreÁo de Ajuste para ICF;109,45
+2020-06-26;ICF;KCK2 - Spot;PreÁo de Spot para ICF;109,45
+2020-06-26;ICF;KCK3 - Ajuste;PreÁo de Ajuste para ICF;116,05
+2020-06-26;ICF;KCK3 - Spot;PreÁo de Spot para ICF;116,05
+2020-06-26;ICF;KCN0 - Ajuste;PreÁo de Ajuste para ICF;95,65
+2020-06-26;ICF;KCN0 - Spot;PreÁo de Spot para ICF;95,65
+2020-06-26;ICF;KCN1 - Ajuste;PreÁo de Ajuste para ICF;103,6
+2020-06-26;ICF;KCN1 - Spot;PreÁo de Spot para ICF;103,6
+2020-06-26;ICF;KCN2 - Ajuste;PreÁo de Ajuste para ICF;110,55
+2020-06-26;ICF;KCN2 - Spot;PreÁo de Spot para ICF;110,55
+2020-06-26;ICF;KCU0 - Ajuste;PreÁo de Ajuste para ICF;96,65
+2020-06-26;ICF;KCU0 - Spot;PreÁo de Spot para ICF;96,65
+2020-06-26;ICF;KCU1 - Ajuste;PreÁo de Ajuste para ICF;104,85
+2020-06-26;ICF;KCU1 - Spot;PreÁo de Spot para ICF;104,85
+2020-06-26;ICF;KCU2 - Ajuste;PreÁo de Ajuste para ICF;111,6
+2020-06-26;ICF;KCU2 - Spot;PreÁo de Spot para ICF;111,6
+2020-06-26;ICF;KCZ0 - Ajuste;PreÁo de Ajuste para ICF;98,95
+2020-06-26;ICF;KCZ0 - Spot;PreÁo de Spot para ICF;98,95
+2020-06-26;ICF;KCZ1 - Ajuste;PreÁo de Ajuste para ICF;106,6
+2020-06-26;ICF;KCZ1 - Spot;PreÁo de Spot para ICF;106,6
+2020-06-26;ICF;KCZ2 - Ajuste;PreÁo de Ajuste para ICF;113,3
+2020-06-26;ICF;KCZ2 - Spot;PreÁo de Spot para ICF;113,3
+2020-06-26;IND;RTIBVPL;√çNDICE BOVESPA - LIQUIDA√á√ÉO;94142
+2020-06-26;INK;NHH1 - Ajuste;PreÁo de Ajuste para INK;22015
+2020-06-26;INK;NHH2 - Ajuste;PreÁo de Ajuste para INK;21570
+2020-06-26;INK;NHH3 - Ajuste;PreÁo de Ajuste para INK;21140
+2020-06-26;INK;NHM1 - Ajuste;PreÁo de Ajuste para INK;21890
+2020-06-26;INK;NHM2 - Ajuste;PreÁo de Ajuste para INK;21460
+2020-06-26;INK;NHM3 - Ajuste;PreÁo de Ajuste para INK;21030
+2020-06-26;INK;NHN0 - Ajuste;PreÁo de Ajuste para INK;22285
+2020-06-26;INK;NHQ0 - Ajuste;PreÁo de Ajuste para INK;22245
+2020-06-26;INK;NHU0 - Ajuste;PreÁo de Ajuste para INK;22245
+2020-06-26;INK;NHU1 - Ajuste;PreÁo de Ajuste para INK;21785
+2020-06-26;INK;NHU2 - Ajuste;PreÁo de Ajuste para INK;21355
+2020-06-26;INK;NHV0 - Ajuste;PreÁo de Ajuste para INK;22180
+2020-06-26;INK;NHZ0 - Ajuste;PreÁo de Ajuste para INK;22105
+2020-06-26;INK;NHZ1 - Ajuste;PreÁo de Ajuste para INK;21675
+2020-06-26;INK;NHZ2 - Ajuste;PreÁo de Ajuste para INK;21245
+2020-06-26;INK;NHZ3 - Ajuste;PreÁo de Ajuste para INK;20820
+2020-06-26;INK;NHZ4 - Ajuste;PreÁo de Ajuste para INK;20380
+2020-06-26;INK;NHZ5 - Ajuste;PreÁo de Ajuste para INK;19950
+2020-06-26;ISP;ESH1 - Ajuste;PreÁo de Ajuste para ISP;2991,5
+2020-06-26;ISP;ESM1 - Ajuste;PreÁo de Ajuste para ISP;2983,75
+2020-06-26;ISP;ESU0 - Ajuste;PreÁo de Ajuste para ISP;3007
+2020-06-26;ISP;ESU1 - Ajuste;PreÁo de Ajuste para ISP;2975,5
+2020-06-26;ISP;ESZ0 - Ajuste;PreÁo de Ajuste para ISP;2996,75
+2020-06-26;JAP;RTYDOW1;JPY X USD WMR/C. PRICE;107,335
+2020-06-26;JPY;RTYDOW1;JPY X USD WMR/C. PRICE;107,335
+2020-06-26;JSE;AIF1 - Ajuste;PreÁo de Ajuste para JSE;50053
+2020-06-26;JSE;AIG1 - Ajuste;PreÁo de Ajuste para JSE;50187
+2020-06-26;JSE;AIH1 - Ajuste;PreÁo de Ajuste para JSE;49851
+2020-06-26;JSE;AIH2 - Ajuste;PreÁo de Ajuste para JSE;49814
+2020-06-26;JSE;AIH3 - Ajuste;PreÁo de Ajuste para JSE;50058
+2020-06-26;JSE;AIJ1 - Ajuste;PreÁo de Ajuste para JSE;49712
+2020-06-26;JSE;AIK1 - Ajuste;PreÁo de Ajuste para JSE;49884
+2020-06-26;JSE;AIM1 - Ajuste;PreÁo de Ajuste para JSE;50008
+2020-06-26;JSE;AIM2 - Ajuste;PreÁo de Ajuste para JSE;49890
+2020-06-26;JSE;AIN0 - Ajuste;PreÁo de Ajuste para JSE;49985
+2020-06-26;JSE;AIQ0 - Ajuste;PreÁo de Ajuste para JSE;50046
+2020-06-26;JSE;AIU0 - Ajuste;PreÁo de Ajuste para JSE;49650
+2020-06-26;JSE;AIU1 - Ajuste;PreÁo de Ajuste para JSE;49569
+2020-06-26;JSE;AIU2 - Ajuste;PreÁo de Ajuste para JSE;49528
+2020-06-26;JSE;AIV0 - Ajuste;PreÁo de Ajuste para JSE;49702
+2020-06-26;JSE;AIX0 - Ajuste;PreÁo de Ajuste para JSE;49865
+2020-06-26;JSE;AIZ0 - Ajuste;PreÁo de Ajuste para JSE;49907
+2020-06-26;JSE;AIZ1 - Ajuste;PreÁo de Ajuste para JSE;49818
+2020-06-26;JSE;AIZ2 - Ajuste;PreÁo de Ajuste para JSE;49917
+2020-06-26;MEX;RTDMXW1;MXN X USD WMR/C. PRICE;22,9865
+2020-06-26;MIX;XMCH1 - Ajuste;PreÁo de Ajuste para MIX;270725
+2020-06-26;MIX;XMCM1 - Ajuste;PreÁo de Ajuste para MIX;268400
+2020-06-26;MIX;XMCZ0 - Ajuste;PreÁo de Ajuste para MIX;271100
+2020-06-26;MXN;RTDMXW1;MXN X USD WMR/C. PRICE;22,9865
+2020-06-26;NZD;RTDNZW1;USD X NZD WMR/C. PRICE;0,6405
+2020-06-26;NZL;RTDNZW1;USD X NZD WMR/C. PRICE;0,6405
+2020-06-26;OC1;RTSEL;TAXA SELIC;2,15
+2020-06-26;SJC;YKF1 - Ajuste;PreÁo de Ajuste para SJC;864
+2020-06-26;SJC;YKF1 - Spot;PreÁo de Spot para SJC;864
+2020-06-26;SJC;YKF2 - Ajuste;PreÁo de Ajuste para SJC;863,75
+2020-06-26;SJC;YKF2 - Spot;PreÁo de Spot para SJC;863,75
+2020-06-26;SJC;YKH1 - Ajuste;PreÁo de Ajuste para SJC;860,5
+2020-06-26;SJC;YKH1 - Spot;PreÁo de Spot para SJC;860,5
+2020-06-26;SJC;YKH2 - Ajuste;PreÁo de Ajuste para SJC;856,75
+2020-06-26;SJC;YKH2 - Spot;PreÁo de Spot para SJC;856,75
+2020-06-26;SJC;YKK1 - Ajuste;PreÁo de Ajuste para SJC;861,25
+2020-06-26;SJC;YKK1 - Spot;PreÁo de Spot para SJC;861,25
+2020-06-26;SJC;YKK2 - Ajuste;PreÁo de Ajuste para SJC;860,5
+2020-06-26;SJC;YKK2 - Spot;PreÁo de Spot para SJC;860,5
+2020-06-26;SJC;YKN0 - Ajuste;PreÁo de Ajuste para SJC;865
+2020-06-26;SJC;YKN0 - Spot;PreÁo de Spot para SJC;863,75
+2020-06-26;SJC;YKN1 - Ajuste;PreÁo de Ajuste para SJC;868,25
+2020-06-26;SJC;YKN1 - Spot;PreÁo de Spot para SJC;868,25
+2020-06-26;SJC;YKN2 - Ajuste;PreÁo de Ajuste para SJC;867,25
+2020-06-26;SJC;YKN2 - Spot;PreÁo de Spot para SJC;867,25
+2020-06-26;SJC;YKN3 - Ajuste;PreÁo de Ajuste para SJC;878,5
+2020-06-26;SJC;YKN3 - Spot;PreÁo de Spot para SJC;878,5
+2020-06-26;SJC;YKQ0 - Ajuste;PreÁo de Ajuste para SJC;860
+2020-06-26;SJC;YKQ0 - Spot;PreÁo de Spot para SJC;860,25
+2020-06-26;SJC;YKQ1 - Ajuste;PreÁo de Ajuste para SJC;869,5
+2020-06-26;SJC;YKQ1 - Spot;PreÁo de Spot para SJC;869,5
+2020-06-26;SJC;YKQ2 - Ajuste;PreÁo de Ajuste para SJC;867,5
+2020-06-26;SJC;YKQ2 - Spot;PreÁo de Spot para SJC;867,5
+2020-06-26;SJC;YKU0 - Ajuste;PreÁo de Ajuste para SJC;857,25
+2020-06-26;SJC;YKU0 - Spot;PreÁo de Spot para SJC;857,25
+2020-06-26;SJC;YKU1 - Ajuste;PreÁo de Ajuste para SJC;863,75
+2020-06-26;SJC;YKU1 - Spot;PreÁo de Spot para SJC;863,75
+2020-06-26;SJC;YKU2 - Ajuste;PreÁo de Ajuste para SJC;865,25
+2020-06-26;SJC;YKU2 - Spot;PreÁo de Spot para SJC;865,25
+2020-06-26;SJC;YKX0 - Ajuste;PreÁo de Ajuste para SJC;861,25
+2020-06-26;SJC;YKX0 - Spot;PreÁo de Spot para SJC;860,75
+2020-06-26;SJC;YKX1 - Ajuste;PreÁo de Ajuste para SJC;860
+2020-06-26;SJC;YKX1 - Spot;PreÁo de Spot para SJC;860
+2020-06-26;SJC;YKX2 - Ajuste;PreÁo de Ajuste para SJC;858,5
+2020-06-26;SJC;YKX2 - Spot;PreÁo de Spot para SJC;858,5
+2020-06-26;SJC;YKX3 - Ajuste;PreÁo de Ajuste para SJC;866,75
+2020-06-26;SJC;YKX3 - Spot;PreÁo de Spot para SJC;866,75
+2020-06-26;SWI;RTDCHW1;CHF X USD WMR/C. PRICE;0,9494
+2020-06-26;T10;DEDE28T10;US T-NOTE 10;139,1718
+2020-06-26;T10;TYH1 - Ajuste;PreÁo de Ajuste para T10;139,203125
+2020-06-26;T10;TYH1 - Spot;PreÁo de Spot para T10;139,203125
+2020-06-26;T10;TYU0 - Ajuste;PreÁo de Ajuste para T10;139,21875
+2020-06-26;T10;TYU0 - Spot;PreÁo de Spot para T10;139,171875
+2020-06-26;T10;TYZ0 - Ajuste;PreÁo de Ajuste para T10;139,203125
+2020-06-26;T10;TYZ0 - Spot;PreÁo de Spot para T10;139,203125
+2020-06-26;TRY;RTDTRW1;TRY X USD WMR/C. PRICE;6,85475
+2020-06-26;TUQ;RTDTRW1;TRY X USD WMR/C. PRICE;6,85475
+2020-06-26;ZAR;RTDZAW1;ZAR X USD WMR/C. PRICE;17,3369

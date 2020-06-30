@@ -2,6 +2,7 @@ source("CaptDados/GetData.R")
 source("SQLCon/SQLite_Conn.R")
 source("CaptDados/GetTradeDays.R")
 source("SQLCon/SQLite_to_DF.R")
+source("CaptDados/GetDadosPublicosB3.R")
 
 get.market.days()
 

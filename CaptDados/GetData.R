@@ -6,7 +6,7 @@ ler.BMF.BVBG = function(dt){
   stopifnot(is(dt, "Date"), length(dt) == 1)
   url = format(dt, "ftp://ftp.bmf.com.br/IPN/TRS/BVBG.086.01/PR%y%m%d.zip")
   
-  filename = format(dt, "Arquivos/PR%y%m%d.zip")             
+  filename = format(dt, "Arquivos/BVBG.086.01/PR%y%m%d.zip")             
   
   result = TRUE
   if(!file.exists(filename)) {
