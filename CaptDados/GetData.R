@@ -4,23 +4,9 @@ require(doParallel)
 
 ler.BMF.BVBG = function(dt){
   stopifnot(is(dt, "Date"), length(dt) == 1)
-  url = format(dt, "ftp://ftp.bmf.com.br/IPN/TRS/BVBG.086.01/PR%y%m%d.zip")
-  
+
   filename = format(dt, "Arquivos/BVBG.086.01/PR%y%m%d.zip")             
   
-  result = TRUE
-  if(!file.exists(filename)) {
-    result = tryCatch({download.file(url, filename, mode= "wb")
-                       res <- TRUE},
-                       error = function(e) return(FALSE))
-    
-  }
-  
-  if(!result){
-    return(NA)
-  }
-  
-
   files = unzip(filename, exdir = "Arquivos")
   last.file = max(files)
   

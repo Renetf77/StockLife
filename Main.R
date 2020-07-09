@@ -5,12 +5,13 @@ source("SQLCon/SQLite_to_DF.R")
 source("CaptDados/GetDadosPublicosB3.R")
 source("CaptDados/GetFileB3PP.R")
 
-#get.market.days()
 
 for(i in 1:30){
   dt = as.Date(Sys.Date()) - i
   ler.B3.PP(dt)
 }
+
+ins.market.days()
 
 i = "MarketDays"
 SQLFinished = paste0("SELECT Dt FROM ", i, " WHERE Finished = '0';")
