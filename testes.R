@@ -7,7 +7,7 @@ require("RSQLite")
 
 source("SQLCon/SQLite_to_DF.R")
 
-Ticker = "SLCE3"
+Ticker = "GFSA3"
 
 SDB = getDataXTS(Ticker)
 
@@ -20,10 +20,12 @@ SY = getSymbols(c(paste0(Ticker,".SA")), src = "yahoo", from = startdate, to = e
 
 #SY <- eval(paste0(Ticker,".SA"))
 chartSeries(SY, TA = NULL)
+addMACD()
 chartSeries(SDB, TA = NULL)
 addMACD()
 
 View(SDB)
+View(SY)
 #plot(Cl(SDB))
 
 #coredata(SDB)
